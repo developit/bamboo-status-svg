@@ -34,6 +34,9 @@ status.start(options, function(err) {
 >	**`port`**  
 >	The port to start the server on.  
 >	*Defaults to the `PORT` environment variable.*  
+>	
+>	**`index`**  
+>	If `true`, requests for `/` return a JSON description  
 
 
 As a Service
@@ -49,15 +52,18 @@ cd bamboo-status-svg
 npm install
 
 # run the server
-PORT=8080 BAMBOO_URL=bamboo.example.org npm start
+PORT=8080 BAMBOO=bamboo.example.org npm start
 ```
 
 >	**Supported Environment Variables:**  
->	**`BAMBOO_URL`**  
+>	**`BAMBOO`**  
 >	The bamboo instance URL to connect to. *Example: `bamboo.example.org`*  
 >	
 >	**`PORT`**  
 >	The port to start the server on.
+>	
+>	**`INDEX`**  
+>	If `true`, requests for `/` return a JSON description  
 
 
 Deploy
@@ -74,7 +80,7 @@ heroku login
 heroku create
 
 # Configure the bamboo instance to point to
-heroku config:set BAMBOO_URL=bamboo.example.org
+heroku config:set BAMBOO=bamboo.example.org
 
 # Deploy
 git push heroku master
