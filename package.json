@@ -1,0 +1,35 @@
+{
+  "name": "bamboo-status-svg",
+  "version": "0.1.0",
+  "description": "SVG status images for Bamboo builds.",
+  "author": "Jason Miller (http://github.com/developit/)",
+  "contributors": [
+    "Jason Miller (http://github.com/developit/)",
+    "Christophe Hamerling <christophe.hamerling@gmail.com>"
+  ],
+  "homepage": "http://github.com/developit/bamboo-status-svg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bamboo",
+    "status",
+    "atlassian"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mths.be/mit"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:developit/bamboo-status-svg.git"
+  },
+  "dependencies": {
+    "express": "~4.3.2",
+    "compression": "^1.0.2",
+    "request": "^2.36.0"
+  }
+}
