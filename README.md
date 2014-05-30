@@ -1,4 +1,4 @@
-Bamboo Status SVG
+bamboo-status-svg
 =================
 A web service that generates build badges for Bamboo plans.  
 
@@ -10,7 +10,7 @@ Example
 
 As a Library
 ------------
-*bamboo-status* is available both as a library in the NPM registry at ([https://npmjs.org/package/bamboo-status-svg](https://npmjs.org/package/bamboo-status-svg)).
+*bamboo-status-svg* is available both as a library in the NPM registry at ([https://npmjs.org/package/bamboo-status-svg](https://npmjs.org/package/bamboo-status-svg)).
 
 Example library usage:  
 
