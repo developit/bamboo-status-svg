@@ -1,6 +1,7 @@
-bamboo-status-svg
-=================
-A web service that generates build badges for Bamboo plans.  
+# bamboo-status-svg [![NPM Version](http://img.shields.io/npm/v/bamboo-status-svg.svg)](https://npmjs.com/package/bamboo-status-svg)
+
+A library and/or service that produces SVG badges for Bamboo build plans.
+
 
 
 Example
@@ -10,15 +11,17 @@ Example
 
 As a Library
 ------------
-*bamboo-status-svg* is available both as a library in the NPM registry at ([https://npmjs.org/package/bamboo-status-svg](https://npmjs.org/package/bamboo-status-svg)).
 
-Example library usage:  
+*bamboo-status-svg* is available in the NPM registry: ([bamboo-status-svg](http://npm.im/bamboo-status-svg)).
+
+**Example library usage:**
+
 
 ```JavaScript
 var status = require('bamboo-status-svg');
 var options = {
 	bamboo : 'https://bamboo.asterisk.org',
-	port   : 3001
+	port : 3001
 };
 
 status.start(options, function(err) {
@@ -30,11 +33,11 @@ status.start(options, function(err) {
 >	**`bamboo`**  
 >	The bamboo instance URL to connect to.  
 >	*Example: `https://bamboo.example.org/`*  
->	
+>
 >	**`port`**  
 >	The port to start the server on.  
 >	*Defaults to the `PORT` environment variable.*  
->	
+>
 >	**`index`**  
 >	If `true`, requests for `/` return a JSON description  
 
@@ -58,10 +61,10 @@ PORT=8080 BAMBOO=bamboo.example.org npm start
 >	**Supported Environment Variables:**  
 >	**`BAMBOO`**  
 >	The bamboo instance URL to connect to. *Example: `bamboo.example.org`*  
->	
+>
 >	**`PORT`**  
 >	The port to start the server on.
->	
+>
 >	**`INDEX`**  
 >	If `true`, requests for `/` return a JSON description  
 

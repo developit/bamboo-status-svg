@@ -1,10 +1,10 @@
 {
   "name": "bamboo-status-svg",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "SVG status images for Bamboo builds.",
-  "author": "Jason Miller (http://github.com/developit/)",
+  "author": "Jason Miller (http://github.com/developit)",
   "contributors": [
-    "Jason Miller (http://github.com/developit/)",
+    "Jason Miller (http://github.com/developit)",
     "Christophe Hamerling <christophe.hamerling@gmail.com>"
   ],
   "homepage": "http://github.com/developit/bamboo-status-svg",
