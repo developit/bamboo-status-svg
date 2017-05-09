@@ -1,5 +1,7 @@
 # bamboo-status-svg [![NPM Version](http://img.shields.io/npm/v/bamboo-status-svg.svg)](https://npmjs.com/package/bamboo-status-svg)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/bamboo-status-svg.svg)](https://greenkeeper.io/)
+
 A library and/or service that produces SVG badges for Bamboo build plans.
 
 
