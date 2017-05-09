@@ -28,7 +28,7 @@
     "url": "git@github.com:developit/bamboo-status-svg.git"
   },
   "dependencies": {
-    "express": "~4.3.2",
+    "express": "~4.15.2",
     "compression": "^1.0.2",
     "request": "^2.36.0"
   }
